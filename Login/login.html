@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="stylelogin.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="main-login">
+      <div class="left-login">
+        <h1>
+          Faça Login <br />
+          <img  src="/img/home.svg" class="home-icon" alt="home">          
+          <a class="nav-home" href="/index.html"> Página Inicial </a>
+        </h1>
+        <img src="animation.svg" class="left-login-image" alt="animation" />
+      </div>
+      <div class="right-login">
+        <div class="card-login">
+          <h1>Login</h1>
+          <div class="textfield">
+            <label for="usuario"
+              >Usuário
+              <span class="material-symbols-outlined"> login </span></label
+            >
+            <input type="text" name="usuario" placeholder="Usuário" />
+          </div>
+          <div class="textfield">
+            <label for="senha">
+              Senha
+              <span class="material-symbols-outlined">password</span></label>
+            <input type="password" name="senha" placeholder="Senha" />
+            <label class="cadastro" for="cadastro"> Não possui cadastro,
+              <a class= "click" href="/Cadastro/cadastro.html"> Clique Aqui </a></label>
+          </div>
+          <button class="btn-login">Login</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

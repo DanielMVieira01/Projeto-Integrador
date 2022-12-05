@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digiteiuai</title>
+    <link rel="stylesheet" href="styleslide.css" />
+    <link rel="stylesheet" href="stylenavbar.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  </head>
+  <body>
+    <h1>Automação dos seus documentos</h1>
+
+    <div class="slider">
+      <div class="slides">
+        <!--Radio Buttons-->
+        <input type="radio" name="radio-btn" id="radio1" />
+        <input type="radio" name="radio-btn" id="radio2" />
+        <input type="radio" name="radio-btn" id="radio3" />
+        <input type="radio" name="radio-btn" id="radio4" />
+
+        <!--Slide images-->
+        <div class="slide first">
+          <img src="./img/digitalizacao-de-processos.jpg" alt="imagem 1" />
+        </div>
+        <div class="slide">
+          <img src="./img/digitalizacao-em-compras.jpg" alt="imagem 2" />
+        </div>
+        <div class="slide">
+          <img src="./img/digitalizacao.jpg" alt="imagem 3" />
+        </div>
+        <div class="slide">
+          <img src="./img/img_01.png" alt="imagem 4" />
+        </div>
+
+        <!--Navigation auto-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+      </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+    </div>
+    <!-- Slider.js -->
+    <script src="slider.js"></script>
+
+    <div class="button-login-navbar">
+      <span class="material-symbols-outlined"> fingerprint </span> 
+      <a href="Login/login.html" target="_blank"> Login Cliente </a>
+    </div>
+    <!-- Navbar -->
+
+    <navbar class="dp-menu">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li>
+          <a href="#ADigiteiuai">A Digiteiuai</a>
+          <ul>
+            <li><a href="#QuemSomos">Quem somos</a></li>
+            <li><a href="#TrabalheConosco">Trabalhe Conosco</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Soluções</a>
+          <ul>
+            <li><a href="#">Assinatura Digital e Eletrônica</a></li>
+            <li><a href="#">Gerenciamento Eletrônico de Documentos</a></li>
+            <li><a href="#">Digitalização de Documentos</a></li>
+            <li><a href="#">Guarda de Documentos</a></li>
+            <li><a href="#">Organização de Arquivos</a></li>
+          </ul>
+        </li>
+        <li><a href="#Clientes">Clientes</a></li>
+        <li><a href="#Contatos">Contatos</a></li>
+      </ul>
+      
+    </navbar>
+  </body>
+</html>
